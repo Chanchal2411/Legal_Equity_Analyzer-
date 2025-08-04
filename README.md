@@ -44,6 +44,7 @@ Analyze the principle of **equity in law** using LLMs by:
 ```python
 from ibm_watsonx_ai.foundation_models import ModelInference
 from ibm_watsonx_ai.credentials import Credentials
+```
 
 # Step 1: Set credentials
 creds = Credentials(api_key="YOUR_API_KEY", url="https://us-south.ml.cloud.ibm.com")
